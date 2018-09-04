@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1057px" height="1057px" viewBox="0 0 1057 1057" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_new0.3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M523,44 C719.536458,44 859.46224,81.0572917 942.777344,155.171875 C940.785156,401.135417 932.242188,566.638021 917.148438,651.679688 C902.054688,736.721354 770.671875,852.966146 523,1000.41406" id="Path" stroke="#000000" stroke-width="80"></path>
+        <path d="M104,44 C300.536458,44 440.46224,81.0572917 523.777344,155.171875 C521.785156,401.135417 513.242188,566.638021 498.148437,651.679688 C483.054688,736.721354 351.671875,852.966146 104,1000.41406" id="Path" stroke="#000000" stroke-width="80" transform="translate(313.888672, 522.207031) scale(-1, 1) translate(-313.888672, -522.207031) "></path>
+        <path d="M519,1003 L526.585938,1003" id="Path-2" stroke="#000000" stroke-width="7"></path>
+        <polyline id="Path-3" stroke="#000000" stroke-width="80" points="518 233.148438 518 673 403 673 633 672.99927"></polyline>
+        <polyline id="Path-4" stroke="#000000" stroke-width="80" points="523 271.950012 743 271.950012 743 403"></polyline>
+        <polyline id="Path-4" stroke="#000000" stroke-width="80" transform="translate(413.000000, 337.524994) scale(-1, 1) translate(-413.000000, -337.524994) " points="303 272 523 272 523 403.049988"></polyline>
+        <path d="M467,988 C506.026977,1013.20052 525.540465,1025.80078 525.540465,1025.80078 C525.540465,1025.80078 528.350613,1023.81375 533.970907,1019.83969 C539.659334,1015.81745 554.669031,1005.20422 579,988" id="Path-5" stroke="#000000" stroke-width="43"></path>
+    </g>
+</svg>

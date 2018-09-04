@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible/>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+          name="viewport"/>
+    <title>tomasjerabek.com</title>
+    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='images/favicon.ico')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/vital.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
+</head>
+
+<body>
+
+<div class="row header">
+    <div class="section">
+        <nav><a href="/" class="logo"><img src="{{url_for('static', filename='images/logo.svg')}}" alt="logo"></a>
+            <label for="menu-toggle" id="menu-toggle-label"></label>
+            <input id="menu-toggle" type="checkbox"/>
+            <div class="icon-menu"></div>
+            <ul class="menu">
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="static/CV_TJ_en.pdf"><img src="{{url_for('static', filename='images/file-pdf-box.svg')}}"> CV</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="section" style="text-align: center">
+
+    <h2>
+        That's a 404.
+    </h2>
+    <p>
+        But no worries, just hit the button below to land safely on my home page.
+    </p>
+
+    <a href="/"><button class="btn black">Take me home</button></a>
+
+</div>
+
+
+
+
+<div class="footer" id="footer">
+    <div class="footer-logos">
+        <a href="https://cz.linkedin.com/in/tomasjerabek" target="_blank">
+            <img src="{{url_for('static', filename='images/linkedin-box.svg')}}" height="40">
+        </a>
+        <a href="https://github.com/tomasjerabek-com" target="_blank">
+            <img src="{{url_for('static', filename='images/github-box.svg')}}" height="40">
+        </a>
+    </div>
+    <div class="footer-text">
+        <div><span style="-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg);
+                              -o-transform: rotate(180deg); -khtml-transform: rotate(180deg);
+                              -ms-transform: rotate(180deg); transform: rotate(180deg);
+                              display: inline-block; font-size:1em">©</span>
+        </div>
+        <div>2018</div>
+        <div>
+            <a href="https://tomasjerabek.com"> tomasjerabek.com</a>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>

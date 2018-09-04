@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+}
+
+html, body, nav {
+    background-color: transparent;
+}
+
+.menu a {
+    color: black;
+}
+
+.menu img {
+    vertical-align: text-bottom;
+}
+
+.menu a:hover {
+    color: #FF0008;
+}
+
+nav {
+    z-index: -10;
+}
+
+.icon-menu {
+    color: black;
+}
+
+input:hover, input:focus, select:hover, select:focus, textarea:hover, textarea:focus {
+    border-color: #666;
+    transition: all 200ms ease-in-out;
+    background-color: transparent; }
+
+.about {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.contact {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.browser-window {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 5px 5px 2px 2px;
+  background-color: #e0e0e0;
+  margin: 20px 0px;
+  overflow: hidden;
+
+    .top-bar {
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+    border-top: #e0e0e0;
+    border-bottom: #e0e0e0;
+    background-color: #e0e0e0;
+  }
+}
+
+.browser-window .circle {
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: lighten(black, 10%);
+  margin-right: 1px;
+}
+
+#close-circle {
+  background-color: #FF5C5A;
+}
+
+#minimize-circle {
+  background-color: #FFBB50;
+}
+
+#maximize-circle {
+  background-color: #1BC656;
+}
+
+.browser-window .circles { margin: 5px 12px; }
+
+.browser-window .content {
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+  min-height: 100%;
+  display: inline-block;
+  /*border-radius: 0 0 5px 5px;*/
+  background-color: #fafafa;
+}
+.browser-window .row {
+  margin: 0;
+}
+
+my-email::after {
+    content: attr(data-domain);
+  }
+  my-email::before {
+    content: attr(data-user) "\0040";
+  }
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background: #e3f2fd;
+    z-index: 900;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.footer-logos {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.footer-text {
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.footer-text div {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #666;
+    margin: 5px;
+}
