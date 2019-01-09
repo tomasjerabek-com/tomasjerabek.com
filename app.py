@@ -15,6 +15,7 @@ from flask import request
 from flask import render_template
 from flask import redirect, url_for, flash
 from flask_wtf.csrf import CSRFProtect
+from datetime import datetime
 
 
 config = configparser.ConfigParser()
@@ -49,6 +50,11 @@ logger.setLevel(logging.DEBUG)
 app = Flask(__name__)
 app.secret_key = APP_SECRET
 csrf = CSRFProtect(app)
+
+
+@app.context_processor
+def inject_year():
+    return dict(year=datetime.today().year)
 
 
 @app.route('/', methods=['GET', 'POST'])
